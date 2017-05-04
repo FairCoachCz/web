@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=latin-ext');
+h1, h2, h3, h4, h5, h6, p, footer { font-family: "Open Sans" }
+
+h1 > img {
+    width: 350px;
+    margin: 80px auto 40px;
+    display: block;   
+}
+
+div.row.green {
+    background: #4daf47;
+}
+
+div.row.blue {
+    background: #00afcb;
+}
+
+.headline {
+    display: block;
+    margin: 0 auto 110px;
+    text-align: center;
+    color: #575656;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.pitch {
+    display: block;
+    margin: 110px auto;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+footer {
+    display: block;
+    background: #666666;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 40px;
+    font-weight: 600;
+}
+
+footer > big {
+    font-size: 24px;
+    vertical-align: sub;
+}
+
+.todo {    
+    display: block;
+    margin: 110px auto;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    opacity: 0.5;
+}
+
+.white .todo {
+    color: gray;
+}
